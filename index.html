@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="review.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Form</title>
+</head>
+<body>
+<div class="header-section">
+    <nav class="navigation">
+        <a href="#">Home</a> ›
+        <a href="#">Be a Reviewer</a> ›
+        <a href="#">Conduct A Review</a>
+    </nav>
+    <p class="welcome">FirstName, your peers value your suggestions!</p>
+
+</div>
+
+<div class="main-content">
+    <div class="problem-context">
+        <h2>WEID: 11</h2>
+        <p>Problem context details...</p>
+
+    <div id="problem-description">
+        <h3>Problem Description</h3>
+        <p>Problem description details...</p>
+    </div>
+
+    <div id="data-section">
+        <h3>Data</h3>
+        <!-- Table structures would go here -->
+        <table id="data-table">
+            <tr>
+                <th>Table Name</th>
+                <th>Table Name</th>
+            </tr>
+            <tr>
+                <td>Item One</td>
+                <td>Item One</td>
+            </tr>
+            <!-- More rows as needed -->
+        </table>
+        <button id="download-sql">Click here to download the SQL file for data insertion</button>
+    </div>
+    </div>
+
+    <div class="reviewer-section">
+    <h3>For Reviewer</h3>
+
+    <div id="solution-submission">
+        <label for="solution">Your solution:</label>
+        <br>
+        <textarea id="solution" name="solution" placeholder="Enter your proposed solutions here in the format of SQL codes."></textarea>
+    </div>
+
+    <div id="rating-section">
+        <p>Rate This Worked-Out Example on Following Criteria:</p>
+        <div class="slider-container">
+    <label for="criteria1">1. The exercise shows how PL/SQL knowledge can be applied to solve a real-world scenario.</label>
+    <input type="range" id="criteria1" name="criteria1" class="slider" min="1" max="5" step="1">
+    <div class="slider-labels" style="--list-length: 5;">
+        <span>Completely Disagree</span>
+        <span>Disagree</span>
+        <span>Neutral</span>
+        <span>Agree</span>
+        <span>Completely Agree</span>
+    </div>
+</div>
+</div>
+
+
+
+    </div>
+</div>
+<div id="action-buttons">
+    <button id="cancel-exit">Cancel and Exit</button>
+    <button id="save-exit">Save and Exit</button>
+    <button id="save-submit">Save and Submit</button>
+</div>
+
+</body>
+<script>
+
+</script>
+</html>
