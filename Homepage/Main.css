@@ -1,0 +1,213 @@
+body{
+    background-color:#ebd99f7e
+}
+.containerHeader{
+    display: flex;
+}
+.containerHeader > div{
+    flex: auto
+}
+#header{
+    color: black;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: bold;
+    font-size: 28pt;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#PurdueLogo{
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+#HamburgerSign{
+    float: right;
+    height: 30px;
+    margin-top: 9px;
+}
+
+.containerNav{
+    display: flex;
+    border-style: groove;
+    border-color: #8e6f3e;
+    border-radius: 10px;
+}
+.containerNav > div{
+    flex: content;
+}
+#Nav{
+    color: #8e6f3e;
+    font-size: 16pt;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 550px;
+}
+
+#SignIn{
+    color: black;
+    font-size: 16pt;
+    float: auto;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.open-button{
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    background-color: #ebd99f7e;
+    font-size: 12pt;
+    padding: 4px 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    border: none;
+    margin-top: 5px;
+}
+  
+
+.form-popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+  
+
+.form-container{
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+  
+
+.form-container input[type=text], .form-container input[type=password]{
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+  
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+  
+
+.form-container .btn{
+    background-color: #8e6f3e;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+  
+
+.form-container .cancel{
+    background-color: gray;
+}
+  
+
+.form-container .btn:hover, .open-button:hover{
+    opacity: 1;
+}
+
+.containerSection{
+    display: flex;
+    margin-top: 15px;
+}
+.containerSection > div{
+    flex: 1
+}
+
+#containerOverview{
+    border-style: double;
+    margin-right: 5px;
+    border-radius: 10px;
+    border-color: #8e6f3e;
+}
+
+#overview{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    font-style: italic;
+    font-weight: bold;
+    Margin: 5px;
+}
+
+#overviewText{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    Margin: 5px;
+}
+
+#containerFunfact{
+    border-style: double;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-color: #8e6f3e;
+}
+
+#funfact{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    font-style: italic;
+    font-weight: bold;
+    Margin: 5px;
+}
+
+.funfactLinks{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    font-style: italic;
+    color: #8e6f3e;
+    Margin: 5px;
+}
+
+.containerBody{
+    display: flex;
+    margin-top: 15px;
+}
+.containerBody > div{
+    flex: 1
+}
+.containerButtons{
+    border-style: double;
+    margin-right: 5px;
+    border-radius: 10px;
+    border-color: #8e6f3e; 
+}
+
+.bodyHeader{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bodyDescription{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-style: italic;
+    color: black;
+    Margin: 5px;
+    text-align: center;
+}
+
+footer{
+    bottom: 0;
+    text-align: center;
+}

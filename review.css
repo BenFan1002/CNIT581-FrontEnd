@@ -1,3 +1,6 @@
+body{
+    background-color:#ebd99f7e
+}
 /*Header*/
 .header-section{
     display: flex;
