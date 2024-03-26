@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <title>Homepage</title>
     <link href="Main.css" rel="stylesheet">
-    <script src="/Main.js"></script>
-
-
 </head>
 <body>
 <div class="containerHeader">
@@ -93,25 +90,25 @@
 </div>
 
 <div class="containerBody">
-    <div class="containerButtons" onclick="location.href='#';">
+    <div class="containerButtons" id="create">
         <p class="bodyHeader">Ready to Create?</p>
         <p class="bodyDescription">Create or Finish Your Worked-Out Examples</p>
     </div>
 
-    <div class="containerButtons" onclick="location.href='#';">
+    <div class="containerButtons" id="review">
         <div>
             <p class="bodyHeader">Review Your Peer's Works</p>
             <p class="bodyDescription">Conduct Peer Review on Your Classmate-Generated Worked-Out Examples</p>
         </div>
     </div>
 
-    <div class="containerButtons" onclick="location.href='#';">
+    <div class="containerButtons" id="challenge" ">
         <p class="bodyHeader">Ready for Some Challenges?</p>
         <p class="bodyDescription">Practice with CERTIFIED Worked-Out Examples</p>
     </div>
 </div>
 
-
+<script src="/Main.js"></script>
 <script>
     function openForm1() {
         document.getElementById("loginForm").style.display = "block";
@@ -128,9 +125,18 @@
     function closeForm2() {
         document.getElementById("signupForm").style.display = "none";
     }
+    document.getElementById("create").addEventListener("click", function(){
+        window.location.href = '../Be an Expert/Be an Expert.html';
+    });
+
+    document.getElementById("review").addEventListener("click", function(){
+        window.location.href = '../review.html';
+    });
+
+    document.getElementById("challenge").addEventListener("click", function(){
+        window.location.href = '../Be an Explorer/Be an Explorer.html';
+    });
 
 </script>
-<script src="../Main.js"></script>
-
 </body>
 </html>

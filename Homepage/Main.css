@@ -10,6 +10,7 @@ body {
     flex: auto
 }
 
+
 #header {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -192,6 +193,7 @@ body {
     margin-right: 5px;
     border-radius: 10px;
     border-color: #8e6f3e;
+    cursor: pointer;
 }
 
 .bodyHeader {
