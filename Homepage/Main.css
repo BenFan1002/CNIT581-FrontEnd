@@ -1,15 +1,18 @@
-body{
-    background-color:#ebd99f7e
+body {
+    background-color: #ebd99f7e
 }
-.containerHeader{
+
+.containerHeader {
     display: flex;
 }
-.containerHeader > div{
+
+.containerHeader > div {
     flex: auto
 }
-#header{
+
+#header {
     color: black;
-    font-family:'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 28pt;
     margin-top: 0;
@@ -17,35 +20,37 @@ body{
     text-align: center;
 }
 
-#PurdueLogo{
+#PurdueLogo {
     float: left;
     height: 30px;
     margin-right: 10px;
     margin-top: 9px;
 }
 
-#HamburgerSign{
+#HamburgerSign {
     float: right;
     height: 30px;
     margin-top: 9px;
 }
 
-.containerNav{
+.containerNav {
     display: flex;
     border-style: groove;
     border-color: #8e6f3e;
 }
-.containerNav > div{
+
+.containerNav > div {
     flex: content;
 }
-#Nav{
+
+#Nav {
     color: #8e6f3e;
     font-size: 16pt;
     font-weight: bolder;
     margin: 5px 550px 5px 5px;
 }
 
-#SignIn{
+#SignIn {
     color: black;
     font-size: 16pt;
     margin-right: 0;
@@ -53,7 +58,7 @@ body{
     margin-bottom: 5px;
 }
 
-.open-button{
+.open-button {
     color: black;
     font-weight: bold;
     font-style: italic;
@@ -65,9 +70,9 @@ body{
     border: none;
     margin-top: 5px;
 }
-  
 
-.form-popup{
+
+.form-popup {
     display: none;
     position: fixed;
     top: 0;
@@ -75,67 +80,68 @@ body{
     border: 3px solid #f1f1f1;
     z-index: 9;
 }
-  
 
-.form-container{
+
+.form-container {
     max-width: 300px;
     padding: 10px;
     background-color: white;
 }
-  
 
-.form-container input[type=text], .form-container input[type=password]{
+
+.form-container input[type=text], .form-container input[type=password] {
     width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
     background: #f1f1f1;
 }
-  
 
-.form-container input[type=text]:focus, .form-container input[type=password]:focus{
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
 }
-  
 
-.form-container .btn{
+
+.form-container .btn {
     background-color: #8e6f3e;
     color: white;
     padding: 16px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     opacity: 0.8;
 }
-  
 
-.form-container .cancel{
+
+.form-container .cancel {
     background-color: gray;
 }
-  
 
-.form-container .btn:hover, .open-button:hover{
+
+.form-container .btn:hover, .open-button:hover {
     opacity: 1;
 }
 
-.containerSection{
+.containerSection {
     display: flex;
     margin-top: 15px;
 }
-.containerSection > div{
+
+.containerSection > div {
     flex: 1
 }
 
-#containerOverview{
+#containerOverview {
     border-style: double;
     margin-right: 5px;
     border-radius: 10px;
     border-color: #8e6f3e;
 }
 
-#overview{
+#overview {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16pt;
     font-style: italic;
@@ -143,20 +149,20 @@ body{
     Margin: 5px;
 }
 
-#overviewText{
+#overviewText {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     Margin: 5px;
 }
 
-#containerFunfact{
+#containerFunfact {
     border-style: double;
     margin-left: 5px;
     border-radius: 10px;
     border-color: #8e6f3e;
 }
 
-#funfact{
+#funfact {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16pt;
     font-style: italic;
@@ -164,7 +170,7 @@ body{
     Margin: 5px;
 }
 
-.funfactLinks{
+.funfactLinks {
     font-family: 'Times New Roman', Times, serif;
     font-size: 14pt;
     font-style: italic;
@@ -172,28 +178,30 @@ body{
     Margin: 5px;
 }
 
-.containerBody{
+.containerBody {
     display: flex;
     margin-top: 15px;
 }
-.containerBody > div{
+
+.containerBody > div {
     flex: 1
 }
-.containerButtons{
+
+.containerButtons {
     border-style: double;
     margin-right: 5px;
     border-radius: 10px;
-    border-color: #8e6f3e; 
+    border-color: #8e6f3e;
 }
 
-.bodyHeader{
+.bodyHeader {
     font-family: 'Times New Roman', Times, serif;
     font-size: 16pt;
     font-weight: bold;
     text-align: center;
 }
 
-.bodyDescription{
+.bodyDescription {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12pt;
     font-style: italic;
@@ -202,54 +210,62 @@ body{
     text-align: center;
 }
 
-footer{
+footer {
     bottom: 0;
     text-align: center;
 }
+
 /*
 Review
 */
-body{
-    background-color:#ebd99f7e
+body {
+    background-color: #ebd99f7e
 }
+
 /*Header*/
-.header-section{
+.header-section {
     display: flex;
     justify-content: space-between;
     border: solid 0.1rem black;
     padding: 10px;
     margin-bottom: 10px
 }
-.navigation{
+
+.navigation {
 
 }
-.welcome{
+
+.welcome {
     margin-top: 0;
     margin-bottom: 0;
 
 }
+
 /*main-content*/
-.main-content{
+.main-content {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
 /*problem-context*/
-.problem-context{
+.problem-context {
     border: solid 0.1rem black;
     padding: 10px;
     overflow: auto;
     width: 50%;
     margin-right: 10px;
 }
+
 /*review*/
-.reviewer-section{
+.reviewer-section {
     width: 50%;
     margin-left: 10px;
 
     border: solid 0.1rem black;
     padding: 10px;
 }
+
 /*Slider Parts Don't Change as i don't know if i can fix it*/
 .slider-container {
     width: 100%;
@@ -308,56 +324,59 @@ body{
 
 
 .new-example:hover {
-  background-color: #f0f0f0; /* Light grey background on hover for visual feedback */
+    background-color: #f0f0f0; /* Light grey background on hover for visual feedback */
 }
 
 .new-example:active {
-  background-color: #e0e0e0; /* Slightly darker grey background when the button is clicked */
+    background-color: #e0e0e0; /* Slightly darker grey background when the button is clicked */
 }
-.checkboxContainer{
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+
+.checkboxContainer {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 
 }
-.center{
-  display: flex;
-  justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
+
+.center {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
 }
+
 .center span {
     margin-right: 8px; /* Adjust the space as needed */
 }
 
 /* General table styles */
 .table-style {
-  width: 100%; /* Make the table expand full width */
-  border-collapse: collapse; /* Ensures that borders are collapsed into a single border */
-  text-align: left; /* Align text to the left */
-  font-family: Arial, sans-serif; /* Use a sans-serif font */
+    width: 100%; /* Make the table expand full width */
+    border-collapse: collapse; /* Ensures that borders are collapsed into a single border */
+    text-align: left; /* Align text to the left */
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
 }
 
 /* Header styles */
 .table-style thead th {
-  background-color: #cccccc; /* Dark background for the header */
-  font-weight: bold; /* Bold text for the header */
-  padding: 10px; /* Some padding inside the header cells */
-  border: 1px solid #ddd; /* Light borders for the header cells */
+    background-color: #cccccc; /* Dark background for the header */
+    font-weight: bold; /* Bold text for the header */
+    padding: 10px; /* Some padding inside the header cells */
+    border: 1px solid #ddd; /* Light borders for the header cells */
 }
 
 /* Body styles */
 .table-style tbody td {
-  border: 1px solid #ddd; /* Light borders for the body cells */
-  padding: 8px; /* Padding inside the body cells */
+    border: 1px solid #ddd; /* Light borders for the body cells */
+    padding: 8px; /* Padding inside the body cells */
 }
 
 /* Alternating row styles */
 .table-style tbody tr:nth-child(odd) {
-  background-color: #eeeeee; /* Light gray background for odd rows */
+    background-color: #eeeeee; /* Light gray background for odd rows */
 }
 
 .table-style tbody tr:nth-child(even) {
-  background-color: #ffffff; /* White background for even rows */
+    background-color: #ffffff; /* White background for even rows */
 }
 
 .container {
@@ -367,6 +386,7 @@ body{
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
 .left-panel, .right-panel {
     box-sizing: border-box;
     float: left;
@@ -375,26 +395,31 @@ body{
     padding: 10px;
     display: flex;
 }
+
 .content-Section {
     background: #fff;
     border: 1px solid #000;
     padding: 20px;
     margin-right: 10px;
 }
+
 .content-Section h2 {
     font-size: 1.2em;
     margin: 0 0 10px 0;
 }
+
 .content-Section textarea {
     width: calc(100% - 20px);
     height: 100px;
     margin-bottom: 10px;
 }
+
 .content-Section select, .form-section input[type=submit] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
 }
+
 .help-panel {
     border: 1px solid #000;
     padding: 20px;
@@ -403,6 +428,7 @@ body{
     /*height: 100%;*/
 
 }
+
 .form-section {
     background: #fff;
     border: 1px solid #000;
@@ -410,6 +436,7 @@ body{
     margin-right: 10px;
     box-sizing: border-box;
 }
+
 .form-section div > label {
     display: block;
     margin-bottom: 5px;
@@ -417,15 +444,18 @@ body{
     padding: 10px;
     background-color: #f8f8f8;
 }
+
 .center input[type=submit] {
     border: 2px solid #000;
     margin-right: 20px;
     background: white;
 }
+
 footer {
     margin-top: 30px;
     cursor: pointer;
 }
+
 footer a {
     text-decoration: none;
     color: inherit;
